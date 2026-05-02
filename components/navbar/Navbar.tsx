@@ -6,8 +6,9 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const navItems = [
   {
-    name: "Services",
+    name: "Services", href: "/services",
     menu: [
+      { name: "Custom Software", href: "/services/customsoft" },
       { name: "Web Development", href: "/services/web" },
       { name: "Mobile Apps", href: "/services/mobile" },
       { name: "SaaS Development", href: "/services/saas" },
@@ -48,15 +49,16 @@ export default function Navbar() {
 
             <nav className="hidden md:flex gap-10">
 
-              {navItems.map((item) => (
-                <div
-                  key={item.name}
-                  onMouseEnter={() => setActive(item.name)}
-                  className="relative text-sm cursor-pointer text-[#1d1d1f] hover:text-black"
-                >
-                  {item.name}
-                </div>
-              ))}
+             {navItems.map((item) => (
+  <Link
+    key={item.name}
+    href={item.href || "#"}
+    onMouseEnter={() => setActive(item.name)}
+    className="relative text-sm cursor-pointer text-[#1d1d1f] hover:text-black"
+  >
+    {item.name}
+  </Link>
+))}
 
             </nav>
           </div>

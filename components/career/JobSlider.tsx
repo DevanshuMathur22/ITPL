@@ -79,18 +79,17 @@ export default function JobSlider() {
               </p>
 
               {/* BUTTON */}
-              <Link href={`/career/${jobs[index].slug}`}>
-                <button className="
-                  mt-6 px-5 py-2 rounded-full
-                  bg-black text-white
-                  text-sm
-                  hover:scale-105
-                  transition
-                ">
-                  Read More →
-                </button>
-              </Link>
-
+              <Link href={`/about/career/${jobs[index].slug}`}>
+  <button className="
+    mt-6 px-5 py-2 rounded-full
+    bg-black text-white
+    text-sm
+    hover:scale-105
+    transition
+  ">
+    Read More →
+  </button>
+</Link>
             </motion.div>
           </AnimatePresence>
 
