@@ -25,12 +25,12 @@ const gradients = [
 ];
 
 export default function Slider() {
-  const sliderRef = useRef(null);
+ const sliderRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const slider = sliderRef.current;
     let scrollAmount = 0;
-    let animationFrame;
+    let animationFrame: number;
 
     const scroll = () => {
       if (!slider) return;
