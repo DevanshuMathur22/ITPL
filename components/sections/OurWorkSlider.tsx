@@ -6,17 +6,17 @@ const slides = [
   {
     title: "ApnaSlot",
     subtitle: "Smart booking platform",
-    image: "/image/smart.jpg",
+    image: "/image/phone.jpg",
   },
   {
     title: "Nayyar Fashion",
     subtitle: "Ecommerce experience",
-    image: "/image/ecom.jpg",
+    image: "/image/fashion.jpg",
   },
   {
     title: "Mizo",
     subtitle: "English learning platform",
-    image: "/image/english.jpg",
+    image: "/image/english copy.jpg",
   },
 ]
 

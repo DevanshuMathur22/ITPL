@@ -134,7 +134,7 @@ export default function AboutHero() {
             className="absolute inset-0"
           >
             <Image
-              src="/image/tec.jpg"
+              src="/image/tech.jpg"
               alt="Team"
               fill
               className="object-contain drop-shadow-2xl"

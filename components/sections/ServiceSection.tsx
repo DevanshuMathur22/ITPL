@@ -12,14 +12,14 @@ const sections = [
       desc: "High-performance websites crafted for speed.",
       bg: "bg-[#f5f5f7]",
       image: "/image/web.jpg",
-      link: "/services/web-development",
+      link: "/services/web-developer",
     },
     {
       title: "Mobile Development",
       desc: "Build fast scalable mobile apps.",
       bg: "bg-black text-white",
-      image: "/image/mobile.jpg",
-      link: "/services/mobile-app",
+      image: "/image/mobiledev.jpg",
+      link: "/services/mobile-developer",
     },
   ],
   [

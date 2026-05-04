@@ -9,7 +9,7 @@ const navItems = [
     name: "Services", href: "/services",
     menu: [
       { name: "Custom Software", href: "/services/customsoft" },
-      { name: "Web Development", href: "/services/web" },
+      { name: "Web Development", href: "/services/web-developer" },
       { name: "Mobile Apps", href: "/services/mobile" },
       { name: "SaaS Development", href: "/services/saas" },
       { name: "UI/UX Design", href: "/services/design" },

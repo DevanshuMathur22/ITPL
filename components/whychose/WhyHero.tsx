@@ -83,7 +83,7 @@ export default function WhyHero() {
           </div>
 
           <Image
-            src="/image/guess.jpg"
+            src="/image/choose.jpg"
             alt="Why Choose Us"
             fill
             className="object-contain"

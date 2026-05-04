@@ -6,7 +6,7 @@ const data = [
   {
     title: "Agile Methodology",
     desc: "WWe’re getting better, faster, and happier through agile methodology. We leverage agile methodology to improve business knowledge and expertise and cover the competing customer experience. Agile methodology is the perfect way to jack up our modus operandi.",
-    image: "/image/agile.jpg",
+    image: "/image/metho.jpg",
     dark: true,
   },
   {

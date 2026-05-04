@@ -4,12 +4,12 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 const logos = [
-  "/logos/logo1.png",
-  "/logos/logo2.png",
-  "/logos/logo3.png",
-  "/logos/logo4.png",
-  "/logos/logo5.png",
-  "/logos/logo6.png",
+ "/image/logo1.jpg",
+ "/image/logo2.jpg",
+ "/image/logo3.jpg",
+ "/image/logo4.jpg",
+ "/image/logo5.jpg",
+ "/image/logo6.jpg",
 ]
 
 export default function Clients() {
