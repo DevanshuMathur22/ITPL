@@ -1,8 +1,8 @@
-import JobHero from "@/components/digitalmarketing/JobHero"
-import JobDetails from "@/components/digitalmarketing/JobDetails"
-import JobInfo from "@/components/digitalmarketing/JobInfo"
-import Forms from "@/components/digitalmarketing/Forms"
-import MoreOpenings from "@/components/digitalmarketing/MoreOpenings"
+import JobHero from "@/components/digitalanalysic/JobHero"
+import JobDetails from "@/components/digitalanalysic/JobDetails"
+import JobInfo from "@/components/digitalanalysic/JobInfo"
+import Forms from "@/components/digitalanalysic/Forms"
+import MoreOpenings from "@/components/digitalanalysic/MoreOpenings"
 import { Form } from "lucide-react"
 // nodejs developer imports
 
