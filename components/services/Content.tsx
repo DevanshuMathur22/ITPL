@@ -9,7 +9,7 @@ const data = [
   {
     title: "Custom Software Development Company",
     desc: `We build fully customizable platforms with advanced features, integrations, and applications to help your business grow. We’re a software product development company developing innovative solutions with evolutionary computation for software development needs.`,
-    image: "/image/team.jpg",
+    image: "/image/custom.jpg",
   },
   {
     title: "Mobile App Development Company",
@@ -18,7 +18,7 @@ const data = [
 Our mission is to create solutions to optimize business processes and help clients become market leaders.
 
 Our vision is to become a global IT service & solutions leader — driving innovation and shaping the future`,
-    image: "/image/mobile.jpg",
+    image: "/image/phone.jpg",
   },
   {
     title: "Web Development Company",
